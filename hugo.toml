@@ -1,0 +1,143 @@
+baseurl = "http://www.grapehut.us.kg"
+title = "小饅頭の部屋"
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+#style = "monokai"
+style = "github-dark"
+
+[params]
+  author = "小饅頭の部屋"
+  info = "Stay hungry. Stay foolish. --Steve Jobs"
+  description = "小饅頭の部屋"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "test@test.com"
+
+  faviconSVG = "images/favicon.svg"
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
+
+  since = 2024
+  license= "<a href='https://icp.gov.moe/?keyword=20241189' target='_blank'>萌ICP备20241189号</a>"
+
+  enableTwemoji = true
+  colorScheme = "auto"  #"auto" or "light" or "dark"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/custom.css"]
+  customJS = ["js/sakuraPlus.js"]
+  customRemoteJS= ["<script async src='https://cdn.seline.so/seline.js' data-token='5b15b5092d4879e'></script>","<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9661896697976587' crossorigin='anonymous'></script>"]
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+
+# Social links
+[[params.social]]
+  name = "Blog"
+  icon = "fa-brands fa-wpforms fa-3x"
+  weight = 1
+  url = "https://blog.grapehut.us.kg"
+  target = "_blank"
+
+[[params.social]]
+  name = "Gmerss"
+  icon = "fa-solid fa-rss fa-3x"
+  weight = 2
+  url = "https://gmerss.grapehut.us.kg"
+  target = "_blank"
+
+[[params.social]]
+  name = "Webstack"
+  icon = "fa-brands fa-watchman-monitoring fa-3x"
+  weight = 3
+  url = "https://webstack.grapehut.us.kg"
+  target = "_blank"
+  
+[[params.social]]
+  name = "IPTV"
+  icon = "fa-brands fa-chromecast fa-3x"
+  weight = 4
+  url = "https://iptv.grapehut.us.kg"
+  target = "_blank"
+
+[[params.social]]
+  name = "Font"
+  icon = "fa-solid fa-pen-nib fa-3x"
+  weight = 5
+  url = "https://myfont.us.kg"
+  target = "_blank"
+
+[[params.social]]
+  name = "秘密基地"
+  icon = "fa-brands fa-expeditedssl fa-3x"
+  weight = 6
+  url = "#"
+  target = "_blank"
+
+[[params.social]]
+  name = "Status"
+  icon = "fa-brands fa-earlybirds fa-3x"
+  weight = 9
+  url = "https://status.grapehut.us.kg"
+  target = "_blank"
+
+
+
+
+
+# Menu links
+[menu]
+[[menu.main]]
+  name = "Line"
+  pre = "fa-brands fa-line fa-2x"
+  weight = 1
+  url = "https://access.line.me/oauth2/v2.1/login?fromDomain=access-auto.line.me&loginState=nBeMaOY7Mdu5aFeSo1hVfn&line_auto_login_error=universal_link_error&loginChannelId=1445834080&returnUri=oauth2v2.1authorizeconsentbot_promptnormalscopeopenidprofileresponse_typecodestateRhiVgBoLDGredirect_urihttps3A2F2Fform.tonariwa.com2Fsuntory2Fmeasure_url3Fcpid3Dtennensui_sampling426lcd3D126type3D126nonceEvutxGZ894client_id1445834080"
+
+[[menu.main]]
+  name = "Wechat"
+  pre = "fa-brands fa-weixin fa-2x"
+  weight = 2
+  url = "https://web.wechat.com/uklccp?lang=en_US&t=v2/index"
+
+[[menu.main]]
+  name = "Telegram"
+  pre = "fa-brands fa-telegram fa-2x"
+  weight = 3
+  url = "https://web.telegram.org/"
+
+[[menu.main]]
+  name = "Youtube"
+  pre = "fa-brands fa-youtube fa-2x"
+  weight = 4
+  url = "https://youtube.com/"
+
+[[menu.main]]
+  name = "Bilibili"
+  pre = "fa-brands fa-bilibili fa-2x"
+  weight = 5
+  url = "https://bilibili.com/"
+
+[[menu.main]]
+  name = "Tiktok"
+  pre = "fa-brands fa-tiktok fa-2x"
+  weight = 6
+  url = "https://tiktok.com/"
+
+

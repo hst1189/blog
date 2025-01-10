@@ -58,8 +58,7 @@
   {{ if hugo.IsServer }}
   {{ $index | safeHTML }}
   {{ else }}
-  {{ $script := resources.GetRemote . | minify | fingerprint }}
-  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+  {{ $index | safeHTML }}
   {{ end }}
   {{ end }}
 

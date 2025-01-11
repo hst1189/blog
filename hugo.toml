@@ -78,23 +78,37 @@ style = "github-dark"
   target = "_blank"
 
 [[params.social]]
+  name = "Live2D"
+  icon = "fa-solid fa-candy-cane fa-3x"
+  weight = 5
+  url = "https://live2d-widget.grapehut.us.kg"
+  target = "_blank"
+
+[[params.social]]
+  name = "Live2D-Cubism3"
+  icon = "fa-solid fa-cake-candles fa-3x"
+  weight = 6
+  url = "https://live2d-cubism3.grapehut.us.kg"
+  target = "_blank"
+  
+[[params.social]]
   name = "Font"
   icon = "fa-solid fa-pen-nib fa-3x"
-  weight = 5
-  url = "https://myfont.us.kg"
+  weight = 7
+  url = "https://myfont.grapehut.us.kg"
   target = "_blank"
 
 [[params.social]]
   name = "秘密基地"
   icon = "fa-brands fa-expeditedssl fa-3x"
-  weight = 6
+  weight = 20
   url = "#"
   target = "_blank"
 
 [[params.social]]
   name = "Status"
   icon = "fa-brands fa-earlybirds fa-3x"
-  weight = 9
+  weight = 30
   url = "https://status.grapehut.us.kg"
   target = "_blank"
 

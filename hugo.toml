@@ -86,7 +86,7 @@ style = "github-dark"
 
 [[params.social]]
   name = "Live2D-Cubism3"
-  icon = "fa-solid fa-cake-candles fa-3x"
+  icon = "fa-solid fa-venus-mars fa-3x"
   weight = 6
   url = "https://live2d-cubism3.grapehut.us.kg"
   target = "_blank"

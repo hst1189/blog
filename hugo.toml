@@ -81,7 +81,7 @@ style = "github-dark"
   name = "Live2D"
   icon = "fa-solid fa-candy-cane fa-3x"
   weight = 5
-  url = "https://live2d-widget.grapehut.us.kg"
+  url = "https://live2d-widget.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]

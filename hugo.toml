@@ -152,4 +152,8 @@ style = "github-dark"
   weight = 6
   url = "https://tiktok.com/"
 
-
+[[menu.main]]
+  name = "ニコニコ動画"
+  pre = "fa-solid fa-tv fa-2x"
+  weight = 7
+  url = "https://nicovideo.jp/"

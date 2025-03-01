@@ -53,14 +53,14 @@ style = "github-dark"
   name = "部落格"
   icon = "fa-brands fa-wpforms fa-3x"
   weight = 1
-  url = "https://blog.grapehut.xyz"
+  url = "https://blog.grapehut.us.kg"
   target = "_blank"
 
 [[params.social]]
   name = "RSS收藏夹"
   icon = "fa-solid fa-rss fa-3x"
   weight = 2
-  url = "https://gmerss.grapehut.xyz"
+  url = "https://gmerss.grapehut.us.kg"
   target = "_blank"
 
 [[params.social]]
@@ -109,7 +109,7 @@ style = "github-dark"
   name = "网站监控Status"
   icon = "fa-brands fa-earlybirds fa-3x"
   weight = 30
-  url = "https://status.grapehut.xyz"
+  url = "https://status.grapehut.us.kg"
   target = "_blank"
 
 

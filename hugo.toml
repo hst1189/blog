@@ -22,7 +22,7 @@ style = "github-dark"
   info = "Stay hungry. Stay foolish. --Steve Jobs"
   description = "小饅頭の部屋"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "images/avatar.png"
   #gravatar = "test@test.com"
 
   faviconSVG = "images/favicon.svg"
@@ -50,21 +50,21 @@ style = "github-dark"
 
 # Social links
 [[params.social]]
-  name = "Blog"
+  name = "部落格"
   icon = "fa-brands fa-wpforms fa-3x"
   weight = 1
   url = "https://blog.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]
-  name = "Gmerss"
+  name = "RSS收藏夹"
   icon = "fa-solid fa-rss fa-3x"
   weight = 2
   url = "https://gmerss.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]
-  name = "Webstack"
+  name = "Web收藏"
   icon = "fa-brands fa-watchman-monitoring fa-3x"
   weight = 3
   url = "https://webstack.grapehut.xyz"
@@ -78,14 +78,14 @@ style = "github-dark"
   target = "_blank"
 
 [[params.social]]
-  name = "Live2D"
+  name = "萌娘Live2D"
   icon = "fa-solid fa-candy-cane fa-3x"
   weight = 5
   url = "https://live2d-widget.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]
-  name = "Live2D-Cubism3"
+  name = "萌娘Live2D-Cubism3"
   icon = "fa-solid fa-venus-mars fa-3x"
   weight = 6
   url = "https://live2d-cubism3.grapehut.xyz"
@@ -106,13 +106,11 @@ style = "github-dark"
   target = "_blank"
 
 [[params.social]]
-  name = "Status"
+  name = "网站监控Status"
   icon = "fa-brands fa-earlybirds fa-3x"
   weight = 30
   url = "https://status.grapehut.xyz"
   target = "_blank"
-
-
 
 
 

@@ -1,4 +1,4 @@
-baseurl = "http://www.grapehut.xyz"
+baseurl = "http://www.grapehut.xyz/me"
 title = "小饅頭の部屋"
 theme = "hugo-coder"
 
@@ -15,7 +15,7 @@ shortname = "yourdiscussshortname"
 
 [markup.highlight]
 #style = "monokai"
-style = "github-dark"
+style = "github-light"
 
 [params]
   author = "小饅頭の部屋"
@@ -53,28 +53,28 @@ style = "github-dark"
   name = "部落格"
   icon = "fa-brands fa-wpforms fa-3x"
   weight = 1
-  url = "https://grapehut.us.kg"
+  url = "https://www.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]
   name = "RSS收藏夹"
   icon = "fa-solid fa-rss fa-3x"
   weight = 2
-  url = "https://gmerss.grapehut.us.kg"
+  url = "https://wwww.grapehut.xyz/gmerss"
   target = "_blank"
 
 [[params.social]]
-  name = "Web收藏"
+  name = "网站导航"
   icon = "fa-brands fa-watchman-monitoring fa-3x"
   weight = 3
-  url = "https://webstack.grapehut.xyz"
+  url = "https://www.grapehut.xyz/webstack"
   target = "_blank"
   
 [[params.social]]
   name = "IPTV"
   icon = "fa-brands fa-chromecast fa-3x"
   weight = 4
-  url = "https://iptv.grapehut.xyz"
+  url = "https://www.grapehut.xyz/iptv"
   target = "_blank"
 
 [[params.social]]
@@ -109,7 +109,7 @@ style = "github-dark"
   name = "网站监控Status"
   icon = "fa-brands fa-earlybirds fa-3x"
   weight = 30
-  url = "https://status.grapehut.us.kg"
+  url = "https://status.grapehut.xyz"
   target = "_blank"
 
 

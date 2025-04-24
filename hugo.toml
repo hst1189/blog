@@ -57,19 +57,19 @@ style = "github-light"
   target = "_blank"
 
 [[params.social]]
-  name = "RSS收藏夹"
-  icon = "fa-solid fa-rss fa-3x"
+  name = "字体甄选"
+  icon = "fa-solid fa-pen-nib fa-3x"
   weight = 2
-  url = "https://wwww.grapehut.xyz/gmerss"
+  url = "https://www.grapehut.xyz/myfont"
   target = "_blank"
-
+  
 [[params.social]]
   name = "网站导航"
   icon = "fa-brands fa-watchman-monitoring fa-3x"
   weight = 3
   url = "https://www.grapehut.xyz/webstack"
   target = "_blank"
-  
+
 [[params.social]]
   name = "IPTV"
   icon = "fa-brands fa-chromecast fa-3x"
@@ -79,34 +79,26 @@ style = "github-light"
 
 [[params.social]]
   name = "萌娘Live2D"
-  icon = "fa-solid fa-candy-cane fa-3x"
+  icon = "fa-solid fa-otter fa-3x"
   weight = 5
   url = "https://live2d-widget.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]
   name = "萌娘Live2D-Cubism3"
-  icon = "fa-solid fa-venus-mars fa-3x"
+  icon = "fa-solid fa-otter fa-3x"
   weight = 6
   url = "https://live2d-cubism3.grapehut.xyz"
   target = "_blank"
   
 [[params.social]]
-  name = "Font"
-  icon = "fa-solid fa-pen-nib fa-3x"
-  weight = 7
-  url = "https://myfont.grapehut.xyz"
-  target = "_blank"
-
-[[params.social]]
   name = "秘密基地"
   icon = "fa-brands fa-expeditedssl fa-3x"
   weight = 20
   url = "#"
-  target = "_blank"
 
 [[params.social]]
-  name = "网站监控Status"
+  name = "网站监控"
   icon = "fa-brands fa-earlybirds fa-3x"
   weight = 30
   url = "https://status.grapehut.xyz"

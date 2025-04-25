@@ -94,9 +94,16 @@ style = "github-light"
 [[params.social]]
   name = "秘密基地"
   icon = "fa-brands fa-expeditedssl fa-3x"
-  weight = 20
+  weight = 10
   url = "#"
 
+[[params.social]]
+  name = "秘密基地"
+  icon = "fa-brands fa-expeditedssl fa-3x"
+  weight = 20
+  url = "https://mirai-tech.dpdns.org/"
+  target = "_blank"
+  
 [[params.social]]
   name = "网站监控"
   icon = "fa-brands fa-earlybirds fa-3x"

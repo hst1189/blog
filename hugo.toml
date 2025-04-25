@@ -60,7 +60,7 @@ style = "github-light"
   name = "字体甄选"
   icon = "fa-solid fa-pen-nib fa-3x"
   weight = 2
-  url = "https://www.grapehut.xyz/myfont"
+  url = "https://myfont.dpdns.org"
   target = "_blank"
   
 [[params.social]]

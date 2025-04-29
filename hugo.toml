@@ -50,36 +50,36 @@ style = "github-light"
 
 # Social links
 [[params.social]]
-  name = "部落格"
-  icon = "fa-brands fa-wpforms fa-3x"
+  name = "小饅頭の部落格"
+  icon = "fa-regular fa-pen-to-square fa-3x"
   weight = 1
   url = "https://www.grapehut.xyz"
   target = "_blank"
   
 [[params.social]]
-  name = "网站导航"
-  icon = "fa-brands fa-watchman-monitoring fa-3x"
+  name = "小饅頭の网站收藏夹"
+  icon = "fa-regular fa-watchman-monitoring fa-3x"
   weight = 2
   url = "https://www.grapehut.xyz/webstack"
   target = "_blank"
 
 [[params.social]]
-  name = "IPTV"
-  icon = "fa-solid fa-tv fa-3x"
+  name = "小饅頭のIPTV"
+  icon = "fa-regular fa-tv fa-3x"
   weight = 3
   url = "https://www.grapehut.xyz/iptv"
   target = "_blank"
 
 [[params.social]]
   name = "萌娘Live2D"
-  icon = "fa-solid fa-otter fa-3x"
+  icon = "fa-regular fa-cat fa-3x"
   weight = 4
   url = "https://live2d-widget.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]
   name = "萌娘Live2D-Cubism3"
-  icon = "fa-solid fa-otter fa-3x"
+  icon = "fa-regular fa-cat fa-3x"
   weight = 5
   url = "https://live2d-cubism3.grapehut.xyz"
   target = "_blank"

@@ -74,14 +74,14 @@ style = "github-light"
   name = "萌娘Live2D"
   icon = "fa-solid fa-cat fa-3x"
   weight = 4
-  url = "https://live2d-widget.grapehut.xyz"
+  url = "https://live2d-widget.grapehut.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
   name = "萌娘Live2D-Cubism3"
   icon = "fa-solid fa-cat fa-3x"
   weight = 5
-  url = "https://live2d-cubism3.grapehut.xyz"
+  url = "https://live2d-cubism3.grapehut.dpdns.org/"
   target = "_blank"
   
 [[params.social]]

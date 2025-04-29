@@ -108,7 +108,7 @@ style = "github-light"
   name = "网站监控"
   icon = "fa-brands fa-stack-overflow fa-3x"
   weight = 99
-  url = "https://status.grapehut.xyz"
+  url = "https://status.grapehut.dpdns.org/"
   target = "_blank"
 
 

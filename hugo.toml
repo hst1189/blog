@@ -58,14 +58,14 @@ style = "github-light"
   
 [[params.social]]
   name = "小饅頭の网站收藏夹"
-  icon = "fa-brand fa-watchman-monitoring fa-3x"
+  icon = "fa-brands fa-delicious fa-3x"
   weight = 2
-  url = "https://www.grapehut.xyz/webstack"
+  url = "https://webstack.grapehut.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
   name = "小饅頭のIPTV"
-  icon = "fa-solid fa-tv fa-3x"
+  icon = "fa-brands fa-chromecast fa-3x"
   weight = 3
   url = "https://iptv.grapehut.dpdns.org/"
   target = "_blank"
@@ -93,7 +93,7 @@ style = "github-light"
 
 [[params.social]]
   name = "mirai-tech"
-  icon = "fa-solid fa-city fa-3x"
+  icon = "fa-brands fa-fort-awesome fa-3x"
   weight = 7
   url = "https://mirai-tech.dpdns.org/"
   target = "_blank"

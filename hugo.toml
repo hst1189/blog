@@ -58,28 +58,28 @@ style = "github-light"
   
 [[params.social]]
   name = "小饅頭の网站收藏夹"
-  icon = "fa-regular fa-watchman-monitoring fa-3x"
+  icon = "fa-solid fa-watchman-monitoring fa-3x"
   weight = 2
   url = "https://www.grapehut.xyz/webstack"
   target = "_blank"
 
 [[params.social]]
   name = "小饅頭のIPTV"
-  icon = "fa-regular fa-tv fa-3x"
+  icon = "fa-solid fa-tv fa-3x"
   weight = 3
   url = "https://www.grapehut.xyz/iptv"
   target = "_blank"
 
 [[params.social]]
   name = "萌娘Live2D"
-  icon = "fa-regular fa-cat fa-3x"
+  icon = "fa-solid fa-cat fa-3x"
   weight = 4
   url = "https://live2d-widget.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]
   name = "萌娘Live2D-Cubism3"
-  icon = "fa-regular fa-cat fa-3x"
+  icon = "fa-solid fa-cat fa-3x"
   weight = 5
   url = "https://live2d-cubism3.grapehut.xyz"
   target = "_blank"
@@ -106,7 +106,7 @@ style = "github-light"
   
 [[params.social]]
   name = "网站监控"
-  icon = "fa-solid fa-bell fa-3x"
+  icon = "fa-solid fa-chat-line fa-3x"
   weight = 99
   url = "https://status.grapehut.xyz"
   target = "_blank"

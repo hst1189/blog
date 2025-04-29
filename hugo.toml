@@ -58,7 +58,7 @@ style = "github-light"
   
 [[params.social]]
   name = "小饅頭の网站收藏夹"
-  icon = "fa-solid fa-watchman-monitoring fa-3x"
+  icon = "fa-brand fa-watchman-monitoring fa-3x"
   weight = 2
   url = "https://www.grapehut.xyz/webstack"
   target = "_blank"
@@ -67,7 +67,7 @@ style = "github-light"
   name = "小饅頭のIPTV"
   icon = "fa-solid fa-tv fa-3x"
   weight = 3
-  url = "https://www.grapehut.xyz/iptv"
+  url = "https://iptv.grapehut.dpdns.org/"
   target = "_blank"
 
 [[params.social]]

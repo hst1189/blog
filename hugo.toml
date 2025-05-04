@@ -108,7 +108,7 @@ style = "github-light"
   name = "网站监控"
   icon = "fa-brands fa-stack-overflow fa-3x"
   weight = 99
-  url = "https://status.grapehut.dpdns.org/"
+  url = "https://klrbsexb.ap-northeast-1.clawcloudrun.com/status/gg"
   target = "_blank"
 
 

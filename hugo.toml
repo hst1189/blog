@@ -118,14 +118,20 @@ style = "github-light"
   weight = 80
   url = "https://"
   target = "_blank"
-  
+
+[[params.social]]
+  name = "n8n ☯
+  icon = "fa-brands fa-hubspot fa-3x"
+  weight = 90
+  url = "https://n8n-tqjzivfe.ap-northeast-1.clawcloudrun.com/"
+  target = "_blank"
+
 [[params.social]]
   name = "网站监控👓"
   icon = "fa-solid fa-chart-bar fa-3x"
-  weight = 90
+  weight = 99
   url = "https://status.grapehut.dpdns.org/status/gg"
   target = "_blank"
-
 
 
 # Menu links

@@ -50,76 +50,77 @@ style = "github-light"
 
 # Social links
 [[params.social]]
-  name = "小饅頭の部落格"
-  icon = "fa-solid fa-pen-nib fa-3x"
+  name = "小饅頭の部落格ℬ"
+  icon = "fa-solid fa-pen-to-square fa-3x"
   weight = 1
   url = "https://www.grapehut.xyz"
-  target = "_blank"
-  
-[[params.social]]
-  name = "小饅頭の网站收藏"
-  icon = "fa-brands fa-delicious fa-3x"
-  weight = 2
-  url = "https://webstack.grapehut.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
   name = "小饅頭の音楽♪"
   icon = "fa-solid fa-headphones fa-3x"
-  weight = 3
+  weight = 2
   url = "https://"
   target = "_blank"
 
 [[params.social]]
-  name = "小饅頭の家庭影院"
+  name = "小饅頭の家庭影院🎞"
   icon = "fa-solid fa-film fa-3x"
-  weight = 4
+  weight = 3
   url = "https://libretv.laosiji123.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
-  name = "小饅頭のIPTV"
+  name = "小饅頭の电视直播📺"
   icon = "fa-brands fa-chromecast fa-3x"
-  weight = 5
+  weight = 4
   url = "https://iptv.grapehut.dpdns.org/"
+  target = "_blank"
+  
+[[params.social]]
+  name = "小饅頭の收藏夹🔖"
+  icon = "fa-solid fa-list fa-3x"
+  weight = 5
+  url = "https://webstack.grapehut.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
-  name = "萌娘Live2D"
+  name = "萌娘Live2D🐱"
   icon = "fa-solid fa-cat fa-3x"
   weight = 6
   url = "https://live2d-widget.grapehut.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
-  name = "萌娘Live2D-Cubism3"
+  name = "萌娘Live2D-Cubism3🐶"
   icon = "fa-solid fa-cat fa-3x"
   weight = 7
   url = "https://live2d-cubism3.grapehut.dpdns.org/"
   target = "_blank"
   
 [[params.social]]
-  name = "字体甄选"
+  name = "字体甄选✎"
   icon = "fa-solid fa-pen-nib fa-3x"
   weight = 8
   url = "https://myfont.dpdns.org"
   target = "_blank"  
 
 [[params.social]]
-  name = "mirai-tech"
+  name = "mirai-tech ㊑"
   icon = "fa-brands fa-fort-awesome fa-3x"
   weight = 9
   url = "https://mirai-tech.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
-  name = "秘密基地"
+  name = "秘密基地 ☣"
   icon = "fa-regular fa-eye-slash fa-3x"
   weight = 80
-  url = "#"
+  url = "https://"
+  target = "_blank"
   
 [[params.social]]
-  name = "网站监控"
+  name = "网站监控👓"
   icon = "fa-brands fa-stack-overflow fa-3x"
   weight = 90
   url = "https://klrbsexb.ap-northeast-1.clawcloudrun.com/status/gg"

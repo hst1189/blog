@@ -120,7 +120,7 @@ style = "github-light"
   target = "_blank"
 
 [[params.social]]
-  name = "n8n ☯
+  name = "n8n ☯"
   icon = "fa-brands fa-hubspot fa-3x"
   weight = 90
   url = "https://n8n-tqjzivfe.ap-northeast-1.clawcloudrun.com/"

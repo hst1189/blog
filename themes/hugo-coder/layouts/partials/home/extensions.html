@@ -1,4 +1,12 @@
-{{/*
-You can add further theme extensions or customizations here if they should
-appear in after the "about" section.
-*/}}
+{{
+const ap = new APlayer({
+    container: document.getElementById('player'),
+    fixed: true,
+    audio: [{
+        name: 'name',
+        artist: 'artist',
+        url: '../music/TimeAfterTime.mp3',
+        cover: 'images/other/11056086_074392.jpg',
+    }]
+});
+}}

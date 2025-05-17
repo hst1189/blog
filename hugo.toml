@@ -36,8 +36,8 @@ style = "github-light"
   colorScheme = "auto"  #"auto" or "light" or "dark"
   hidecolorschemetoggle = false
 
-  customCSS = ["css/custom.css"]
-  customJS = ["js/sakuraPlus.js"]
+  customCSS = ["css/custom.css","css/APlayer.min.css"]
+  customJS = ["js/sakuraPlus.js","js/APlayer.min.js"]
   customRemoteJS= ["<script async src='https://cdn.seline.so/seline.js' data-token='5b15b5092d4879e'></script>","<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9661896697976587' crossorigin='anonymous'></script>"]
 
 

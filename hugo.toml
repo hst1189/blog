@@ -37,7 +37,7 @@ style = "github-light"
   hidecolorschemetoggle = false
 
   customCSS = ["css/custom.css","css/APlayer.min.css"]
-  customJS = ["js/sakuraPlus.js","js/APlayer.min.js"]
+  customJS = ["js/sakuraPlus.js","js/APlayer.min.js","js/musicPlayer.js"]
   customRemoteJS= ["<script async src='https://cdn.seline.so/seline.js' data-token='5b15b5092d4879e'></script>","<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9661896697976587' crossorigin='anonymous'></script>"]
 
   enableMusic = true

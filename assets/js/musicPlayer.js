@@ -6,8 +6,8 @@ const ap = new APlayer({
     container: document.getElementById('player'),
     fixed: true,
     audio: [{
-        name: 'name',
-        artist: 'artist',
+        name: 'Time after time ～花舞う街で～',
+        artist: '倉木 麻衣',
         url: '../music/TimeAfterTime.mp3',
         cover: 'images/other/11056086_074392.jpg',
     }]

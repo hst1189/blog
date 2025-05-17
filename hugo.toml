@@ -121,9 +121,9 @@ style = "github-light"
   
 [[params.social]]
   name = "网站监控👓"
-  icon = "fa-brands fa-stack-overflow fa-3x"
+  icon = "fa-solid fa-chart-bar fa-3x"
   weight = 90
-  url = "https://klrbsexb.ap-northeast-1.clawcloudrun.com/status/gg"
+  url = "https://status.grapehut.dpdns.org/status/gg"
   target = "_blank"
 
 

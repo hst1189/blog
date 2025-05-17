@@ -85,21 +85,21 @@ style = "github-light"
   target = "_blank"
 
 [[params.social]]
-  name = "萌娘Live2D🐱"
+  name = "小饅頭の萌娘Live2D🐱"
   icon = "fa-solid fa-venus fa-3x"
   weight = 6
   url = "https://live2d-widget.grapehut.dpdns.org/"
   target = "_blank"
 
 [[params.social]]
-  name = "萌娘Live2D-Cubism3🐶"
+  name = "小饅頭の萌娘Live2D-Cubism3🐶"
   icon = "fa-solid fa-venus-double fa-3x"
   weight = 7
   url = "https://live2d-cubism3.grapehut.dpdns.org/"
   target = "_blank"
   
 [[params.social]]
-  name = "字体甄选✎"
+  name = "小饅頭の字体甄选✎"
   icon = "fa-solid fa-signature fa-3x"
   weight = 8
   url = "https://myfont.dpdns.org"
@@ -111,23 +111,30 @@ style = "github-light"
   weight = 9
   url = "https://mirai-tech.dpdns.org/"
   target = "_blank"
-
+  
 [[params.social]]
-  name = "秘密基地 ☣"
-  icon = "fa-regular fa-eye-slash fa-3x"
+  name = "小饅頭の语音克隆tts"
+  icon = "fa-solid fa-microphone fa-3x"
   weight = 80
-  url = "https://"
-  target = "_blank"
+  url = "https://libretts-4l5.pages.dev/"
+  target = "_blank"  
 
 [[params.social]]
-  name = "n8n ☯"
+  name = "小饅頭のn8n ☯"
   icon = "fa-brands fa-hubspot fa-3x"
-  weight = 90
+  weight = 81
   url = "https://n8n-tqjzivfe.ap-northeast-1.clawcloudrun.com/"
   target = "_blank"
 
 [[params.social]]
-  name = "网站监控👓"
+  name = "小饅頭の秘密基地 ☣"
+  icon = "fa-regular fa-eye-slash fa-3x"
+  weight = 90
+  url = "https://"
+  target = "_blank"
+
+[[params.social]]
+  name = "小饅頭の网站监控👓"
   icon = "fa-solid fa-chart-bar fa-3x"
   weight = 99
   url = "https://klrbsexb.ap-northeast-1.clawcloudrun.com/status/gg"

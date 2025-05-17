@@ -60,7 +60,7 @@ style = "github-light"
   name = "小饅頭の音楽♪"
   icon = "fa-solid fa-headphones fa-3x"
   weight = 2
-  url = "https://"
+  url = "https://www.mureka.ai/home"
   target = "_blank"
 
 [[params.social]]

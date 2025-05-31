@@ -129,7 +129,7 @@ style = "github-light"
 
 [[params.social]]
   name = "小饅頭のGeminiBalance 🤖"
-  icon = "fa-brands fa-hubspot fa-3x"
+  icon = "fa-brands fa-google fa-3x"
   weight = 82
   url = "https://wuaacyawcegc.ap-northeast-1.clawcloudrun.com"
   target = "_blank"

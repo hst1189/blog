@@ -68,57 +68,62 @@ style = "github-light"
   name = "小饅頭の家庭影院🎞"
   icon = "fa-solid fa-film fa-3x"
   weight = 3
-  url = "https://libretv.laosiji123.dpdns.org"
+  url = "https://libretv.grapehut.dpdns.org/"
   target = "_blank"
+  
+[[params.social]]
+  name = "小饅頭の语音克隆tts"
+  icon = "fa-solid fa-microphone fa-3x"
+  weight = 4
+  url = "https://libretts-4l5.pages.dev"
+  target = "_blank"    
 
 [[params.social]]
   name = "小饅頭の电视直播📺"
   icon = "fa-brands fa-chromecast fa-3x"
-  weight = 4
+  weight = 5
   url = "https://iptv.grapehut.dpdns.org"
   target = "_blank"
   
 [[params.social]]
   name = "小饅頭の收藏夹🔖"
   icon = "fa-solid fa-list fa-3x"
-  weight = 5
+  weight = 6
   url = "https://webstack.grapehut.dpdns.org"
   target = "_blank"
+
 
 [[params.social]]
   name = "小饅頭の萌娘Live2D🐱"
   icon = "fa-solid fa-venus fa-3x"
-  weight = 6
+  weight = 11
   url = "https://live2d-widget.grapehut.dpdns.org"
   target = "_blank"
 
 [[params.social]]
   name = "小饅頭の萌娘Live2D-Cubism3🐶"
   icon = "fa-solid fa-venus-double fa-3x"
-  weight = 7
+  weight = 12
   url = "https://live2d-cubism3.grapehut.dpdns.org"
   target = "_blank"
+
+
   
 [[params.social]]
   name = "小饅頭の字体甄选✎"
   icon = "fa-solid fa-signature fa-3x"
-  weight = 8
+  weight = 21
   url = "https://myfont.dpdns.org"
   target = "_blank"  
 
 [[params.social]]
   name = "mirai-tech ㊑"
   icon = "fa-solid fa-earth-americas fa-3x"
-  weight = 9
+  weight = 22
   url = "https://mirai-tech.dpdns.org"
-  target = "_blank"
-  
-[[params.social]]
-  name = "小饅頭の语音克隆tts"
-  icon = "fa-solid fa-microphone fa-3x"
-  weight = 80
-  url = "https://libretts-4l5.pages.dev"
   target = "_blank"  
+
+
 
 [[params.social]]
   name = "小饅頭のn8n ☯"
@@ -135,18 +140,21 @@ style = "github-light"
   target = "_blank"
 
 [[params.social]]
+  name = "小饅頭の网站监控👓"
+  icon = "fa-solid fa-chart-bar fa-3x"
+  weight = 83
+  url = "https://klrbsexb.ap-northeast-1.clawcloudrun.com/status/gg"
+  target = "_blank"
+
+
+
+[[params.social]]
   name = "小饅頭の秘密基地 ㊙"
   icon = "fa-regular fa-eye-slash fa-3x"
   weight = 90
   url = "https://"
   target = "_blank"
 
-[[params.social]]
-  name = "小饅頭の网站监控👓"
-  icon = "fa-solid fa-chart-bar fa-3x"
-  weight = 99
-  url = "https://klrbsexb.ap-northeast-1.clawcloudrun.com/status/gg"
-  target = "_blank"
 
 
 # Menu links

@@ -1,4 +1,4 @@
-baseurl = "http://www.grapehut.xyz/me"
+baseurl = "http://www.grapehut.xyz/"
 title = "小饅頭の部屋"
 theme = "hugo-coder"
 
@@ -54,7 +54,7 @@ style = "github-light"
   name = "小饅頭の部落格ℬ"
   icon = "fa-solid fa-pen-to-square fa-3x"
   weight = 1
-  url = "https://www.grapehut.xyz"
+  url = "https://blog.grapehut.xyz"
   target = "_blank"
 
 [[params.social]]

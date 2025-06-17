@@ -4,12 +4,13 @@ https://lmarena.ai/leaderboard
 # 💯  代理地址
 https://api-proxy.me/
 
+
 # 🔖 Gemini API  （国内无法直接访问，需代理）
 限制：https://ai.google.dev/gemini-api/docs/rate-limits#free-tier
 10次/分，500次/天，250,000token/分
 
 获取KEY：https://aistudio.google.com/apikey
-API地址： https://generativelanguage.googleapis.com/v1beta/models/
+API地址： https://generativelanguage.googleapis.com/v1beta/
 模型：Gemini 2.5 Flash Preview 05-20
 
 ### 多Key轮询方法：

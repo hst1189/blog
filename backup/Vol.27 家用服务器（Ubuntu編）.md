@@ -1,6 +1,6 @@
 🔖# 1. 安装Ubuntu系统
 Linux发行版Ubuntu24.04LTS　　※LTS的意思是"长期支持"
-https://old-releases.ubuntu.com/releases/
+https://ubuntu.com/
 
 
 🔖# 2. 绑定静态IP

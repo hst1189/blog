@@ -27,6 +27,13 @@ https://aws.amazon.com/cn/campaigns/nc20241101/
 　　ssh -i 'aws_ubuntu.pem' ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
 
 🔖5. `sudo -i`  进入root权限
+查看硬件配置
+```
+CPU：lscpu
+内存：free -h
+磁盘容量：df -h
+OS版本：cat /etc/issue
+```
 
 🔖6. 安装Docker
 ```
@@ -77,6 +84,13 @@ https://aws.amazon.com/cn/campaigns/nc20241101/
 　　ssh -i 'aws_ubuntu.pem' ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
 
 🔖5. `sudo -i`  进入root权限
+查看硬件配置
+```
+CPU：lscpu
+内存：free -h
+磁盘容量：df -h
+OS版本：cat /etc/issue
+```
 
 🔖6. 安装Docker
 ```
@@ -186,7 +200,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>🔖4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（<code class="notranslate">xxx.pem</code>） ，选择Ubuntu的话，默认用户名：`ubuntu<br>
 　　例如：公有IPv4：18.181.184.67<br>
 　　ssh -i "aws_ubuntu.pem" <a href="mailto:ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com">ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com</a></p>
-<p>🔖5. <code class="notranslate">sudo -i</code>  进入root权限</p>
+<p>🔖5. <code class="notranslate">sudo -i</code>  进入root权限<br>
+查看硬件配置</p>
+<pre class="notranslate"><code class="notranslate">CPU：lscpu
+内存：free -h
+磁盘容量：df -h
+OS版本：cat /etc/issue
+</code></pre>
 <p>🔖6. 安装Docker</p>
 <pre class="notranslate"><code class="notranslate">curl -fsSL https://get.docker.com | sh    #安装Docker
 systemctl enable --now docker             #启动Docker服务

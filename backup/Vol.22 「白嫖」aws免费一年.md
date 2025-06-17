@@ -19,6 +19,13 @@ https://aws.amazon.com/cn/campaigns/nc20241101/
 　　ssh -i "aws_ubuntu.pem" ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
 
 🔖5. `sudo -i`  进入root权限
+查看硬件配置
+```
+CPU：lscpu
+内存：free -h
+磁盘容量：df -h
+OS版本：cat /etc/issue
+```
 
 🔖6. 安装Docker
 ```

@@ -7,25 +7,28 @@
     <link href='https://cdn.jsdelivr.net/npm/@primer/css@21.5.1/dist/primer.min.css' rel='stylesheet' />
     <link rel="icon" href="../favicon.svg">
 <meta name="description" content="# 注册
-1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
+🔖1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
 https://aws.amazon.com/cn/campaigns/nc20241101/
 
-2. 选择免费额度的配置来创建一个EC2实例
-    名称： 任意填写
-    系统：任意选择 （选择平时常用系统  例如：`Ubuntu`）
-    选择硬件配置（选择默认的免费）
-    实例类型（默认的`t2.mirco`即可）
-    创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
+🔖2. 选择免费额度的配置来创建一个EC2实例
+    名称：任意
+    系统：任意（选择平时常用系统  **Ubuntu**）
+    硬件配置（选择默认的免费）
+    实例类型（默认的**t2.micro**）
+    存储（免费最大30GB）
+    
+　创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
     创建安全组（允许`SSH ✓`，`HTTP ✓`，`HTTPS  ✓`） 
-    配置存储（免费最大30GB）
 
-3. 确认一下实体配置信息，启动实体
+🔖3. 确认一下实体配置信息，启动实体
 
-4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu`
+🔖4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu
+　　例如：公有IPv4：18.181.184.67
+　　ssh -i 'aws_ubuntu.pem' ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
 
-5. `sudo -i`  进入root权限
+🔖5. `sudo -i`  进入root权限
 
-6. 安装Docker
+🔖6. 安装Docker
 ```
 curl -fsSL https://get.docker.com | sh    #安装Docker
 systemctl enable --now docker             #启动Docker服务
@@ -34,7 +37,7 @@ docker ps -a                            #查看docker中所有容器
 ```
 
 
-7. 开放端口，设置安全组
+🔖7. 开放端口，设置安全组
 `Gmeek-html<img src='../imgs/aws_security_rull.png'>`
 
 > [!TIP]
@@ -54,25 +57,28 @@ docker ps -a                            #查看docker中所有容器
 首先Ping只是向服务器发送ICMP的数据包，如果在服务器的防火墙没有允许ICMP协议的数据包的话，那么即使服务器正常运行，那也是ping不同的。">
 <meta property="og:title" content="Vol.22 白嫖AWS（免费一年）">
 <meta property="og:description" content="# 注册
-1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
+🔖1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
 https://aws.amazon.com/cn/campaigns/nc20241101/
 
-2. 选择免费额度的配置来创建一个EC2实例
-    名称： 任意填写
-    系统：任意选择 （选择平时常用系统  例如：`Ubuntu`）
-    选择硬件配置（选择默认的免费）
-    实例类型（默认的`t2.mirco`即可）
-    创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
+🔖2. 选择免费额度的配置来创建一个EC2实例
+    名称：任意
+    系统：任意（选择平时常用系统  **Ubuntu**）
+    硬件配置（选择默认的免费）
+    实例类型（默认的**t2.micro**）
+    存储（免费最大30GB）
+    
+　创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
     创建安全组（允许`SSH ✓`，`HTTP ✓`，`HTTPS  ✓`） 
-    配置存储（免费最大30GB）
 
-3. 确认一下实体配置信息，启动实体
+🔖3. 确认一下实体配置信息，启动实体
 
-4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu`
+🔖4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu
+　　例如：公有IPv4：18.181.184.67
+　　ssh -i 'aws_ubuntu.pem' ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
 
-5. `sudo -i`  进入root权限
+🔖5. `sudo -i`  进入root权限
 
-6. 安装Docker
+🔖6. 安装Docker
 ```
 curl -fsSL https://get.docker.com | sh    #安装Docker
 systemctl enable --now docker             #启动Docker服务
@@ -81,7 +87,7 @@ docker ps -a                            #查看docker中所有容器
 ```
 
 
-7. 开放端口，设置安全组
+🔖7. 开放端口，设置安全组
 `Gmeek-html<img src='../imgs/aws_security_rull.png'>`
 
 > [!TIP]
@@ -166,43 +172,29 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <!--<nav class="SideNav border"></nav>-->
 <div class="markdown-body spoiler" id="postBody"><h1>注册</h1>
-<ol>
-<li>
-<p>注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）<br>
+<p>🔖1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）<br>
 <a href="https://aws.amazon.com/cn/campaigns/nc20241101/" rel="nofollow">https://aws.amazon.com/cn/campaigns/nc20241101/</a></p>
-</li>
-<li>
-<p>选择免费额度的配置来创建一个EC2实例<br>
-名称： 任意填写<br>
-系统：任意选择 （选择平时常用系统  例如：<code class="notranslate">Ubuntu</code>）<br>
-选择硬件配置（选择默认的免费）<br>
-实例类型（默认的<code class="notranslate">t2.mirco</code>即可）<br>
-创建密钥（保存为<code class="notranslate">xxx.pem</code>，下载到本地， ssh联接用）<br>
-创建安全组（允许<code class="notranslate">SSH ✓</code>，<code class="notranslate">HTTP ✓</code>，<code class="notranslate">HTTPS  ✓</code>）<br>
-配置存储（免费最大30GB）</p>
-</li>
-<li>
-<p>确认一下实体配置信息，启动实体</p>
-</li>
-<li>
-<p>进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（<code class="notranslate">xxx.pem</code>） ，选择Ubuntu的话，默认用户名：<code class="notranslate">ubuntu</code></p>
-</li>
-<li>
-<p><code class="notranslate">sudo -i</code>  进入root权限</p>
-</li>
-<li>
-<p>安装Docker</p>
-</li>
-</ol>
+<p>🔖2. 选择免费额度的配置来创建一个EC2实例<br>
+名称：任意<br>
+系统：任意（选择平时常用系统  <strong>Ubuntu</strong>）<br>
+硬件配置（选择默认的免费）<br>
+实例类型（默认的<strong>t2.micro</strong>）<br>
+存储（免费最大30GB）</p>
+<p>　创建密钥（保存为<code class="notranslate">xxx.pem</code>，下载到本地， ssh联接用）<br>
+创建安全组（允许<code class="notranslate">SSH ✓</code>，<code class="notranslate">HTTP ✓</code>，<code class="notranslate">HTTPS  ✓</code>）</p>
+<p>🔖3. 确认一下实体配置信息，启动实体</p>
+<p>🔖4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（<code class="notranslate">xxx.pem</code>） ，选择Ubuntu的话，默认用户名：`ubuntu<br>
+　　例如：公有IPv4：18.181.184.67<br>
+　　ssh -i "aws_ubuntu.pem" <a href="mailto:ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com">ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com</a></p>
+<p>🔖5. <code class="notranslate">sudo -i</code>  进入root权限</p>
+<p>🔖6. 安装Docker</p>
 <pre class="notranslate"><code class="notranslate">curl -fsSL https://get.docker.com | sh    #安装Docker
 systemctl enable --now docker             #启动Docker服务
 docker -v                                 #查看docker版本，检查是否安装成功
 docker ps -a                            #查看docker中所有容器
 </code></pre>
-<ol start="7">
-<li>开放端口，设置安全组<br>
-<img src="../imgs/aws_security_rull.png"></li>
-</ol>
+<p>🔖7. 开放端口，设置安全组<br>
+<img src="../imgs/aws_security_rull.png"></p>
 <div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>http 的默认端口: 80<br>
 https 的默认端口: 433<br>
 ssh 的默认端口: 22<br>

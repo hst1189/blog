@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 09:24:32 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 09:44:06 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
 https://github.com/microsoft/PowerToys&#13;
 &#13;
 # 下载插件&#13;
@@ -53,51 +53,54 @@ https://ubuntu.com/
 
 
 🔖# 2. 绑定静态IP
-打开路由器设置---&gt;局域网设置--&gt;DHCP静态IP设置，分配一个固定IP，比如192.168.0.100。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/16.html</guid><pubDate>Thu, 19 Dec 2024 06:42:55 +0000</pubDate></item><item><title>Vol.22 白嫖AWS（免费一年）</title><link>https://blog.grapehut.xyz/post/22.html</link><description># 注册&#13;
-1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）&#13;
-https://aws.amazon.com/cn/campaigns/nc20241101/&#13;
-&#13;
-2. 选择免费额度的配置来创建一个EC2实例&#13;
-    名称： 任意填写&#13;
-    系统：任意选择 （选择平时常用系统  例如：`Ubuntu`）&#13;
-    选择硬件配置（选择默认的免费）&#13;
-    实例类型（默认的`t2.mirco`即可）&#13;
-    创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）&#13;
-    创建安全组（允许`SSH ✓`，`HTTP ✓`，`HTTPS  ✓`） &#13;
-    配置存储（免费最大30GB）&#13;
-&#13;
-3. 确认一下实体配置信息，启动实体&#13;
-&#13;
-4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu`&#13;
-&#13;
-5. `sudo -i`  进入root权限&#13;
-&#13;
-6. 安装Docker&#13;
-```&#13;
-curl -fsSL https://get.docker.com | sh    #安装Docker&#13;
-systemctl enable --now docker             #启动Docker服务&#13;
-docker -v                                 #查看docker版本，检查是否安装成功&#13;
-docker ps -a                            #查看docker中所有容器&#13;
-```&#13;
-&#13;
-&#13;
-7. 开放端口，设置安全组&#13;
-`Gmeek-html&lt;img src='../imgs/aws_security_rull.png'&gt;`&#13;
-&#13;
-&gt; [!TIP]&#13;
-&gt; http 的默认端口: 80&#13;
-&gt; https 的默认端口: 433&#13;
-&gt; ssh 的默认端口: 22&#13;
-&gt; telnet 的默认端口: 23&#13;
-&gt; ftp 的默认端口: 20 和 21 ，  20负责连接，21负责传输数据&#13;
-&gt; sftp 的默认端口: 22&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-# 常见问题&#13;
-&#13;
-## 无法ping的解决方案&#13;
+打开路由器设置---&gt;局域网设置--&gt;DHCP静态IP设置，分配一个固定IP，比如192.168.0.100。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/16.html</guid><pubDate>Thu, 19 Dec 2024 06:42:55 +0000</pubDate></item><item><title>Vol.22 白嫖AWS（免费一年）</title><link>https://blog.grapehut.xyz/post/22.html</link><description># 注册
+🔖1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
+https://aws.amazon.com/cn/campaigns/nc20241101/
+
+🔖2. 选择免费额度的配置来创建一个EC2实例
+    名称：任意
+    系统：任意（选择平时常用系统  **Ubuntu**）
+    硬件配置（选择默认的免费）
+    实例类型（默认的**t2.micro**）
+    存储（免费最大30GB）
+    
+　创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
+    创建安全组（允许`SSH ✓`，`HTTP ✓`，`HTTPS  ✓`） 
+
+🔖3. 确认一下实体配置信息，启动实体
+
+🔖4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu
+　　例如：公有IPv4：18.181.184.67
+　　ssh -i 'aws_ubuntu.pem' ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
+
+🔖5. `sudo -i`  进入root权限
+
+🔖6. 安装Docker
+```
+curl -fsSL https://get.docker.com | sh    #安装Docker
+systemctl enable --now docker             #启动Docker服务
+docker -v                                 #查看docker版本，检查是否安装成功
+docker ps -a                            #查看docker中所有容器
+```
+
+
+🔖7. 开放端口，设置安全组
+`Gmeek-html&lt;img src='../imgs/aws_security_rull.png'&gt;`
+
+&gt; [!TIP]
+&gt; http 的默认端口: 80
+&gt; https 的默认端口: 433
+&gt; ssh 的默认端口: 22
+&gt; telnet 的默认端口: 23
+&gt; ftp 的默认端口: 20 和 21 ，  20负责连接，21负责传输数据
+&gt; sftp 的默认端口: 22
+
+
+
+
+# 常见问题
+
+## 无法ping的解决方案
 首先Ping只是向服务器发送ICMP的数据包，如果在服务器的防火墙没有允许ICMP协议的数据包的话，那么即使服务器正常运行，那也是ping不同的。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/22.html</guid><pubDate>Tue, 17 Dec 2024 15:42:07 +0000</pubDate></item><item><title>Vol.20 油猴（Tampermonkey)</title><link>https://blog.grapehut.xyz/post/20.html</link><description># 比較&#13;
 || Greasemonkey | Violentmonkey | Tampermonkey| Scriptcat&#13;
 -- |-- | -- | --|--&#13;

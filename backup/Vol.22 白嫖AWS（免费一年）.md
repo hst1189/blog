@@ -1,23 +1,26 @@
 # 注册
-1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
+🔖1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
 https://aws.amazon.com/cn/campaigns/nc20241101/
 
-2. 选择免费额度的配置来创建一个EC2实例
-    名称： 任意填写
-    系统：任意选择 （选择平时常用系统  例如：`Ubuntu`）
-    选择硬件配置（选择默认的免费）
-    实例类型（默认的`t2.mirco`即可）
-    创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
+🔖2. 选择免费额度的配置来创建一个EC2实例
+    名称：任意
+    系统：任意（选择平时常用系统  **Ubuntu**）
+    硬件配置（选择默认的免费）
+    实例类型（默认的**t2.micro**）
+    存储（免费最大30GB）
+    
+　创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
     创建安全组（允许`SSH ✓`，`HTTP ✓`，`HTTPS  ✓`） 
-    配置存储（免费最大30GB）
 
-3. 确认一下实体配置信息，启动实体
+🔖3. 确认一下实体配置信息，启动实体
 
-4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu`
+🔖4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu
+　　例如：公有IPv4：18.181.184.67
+　　ssh -i "aws_ubuntu.pem" ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
 
-5. `sudo -i`  进入root权限
+🔖5. `sudo -i`  进入root权限
 
-6. 安装Docker
+🔖6. 安装Docker
 ```
 curl -fsSL https://get.docker.com | sh    #安装Docker
 systemctl enable --now docker             #启动Docker服务
@@ -26,7 +29,7 @@ docker ps -a                            #查看docker中所有容器
 ```
 
 
-7. 开放端口，设置安全组
+🔖7. 开放端口，设置安全组
 `Gmeek-html<img src="../imgs/aws_security_rull.png">`
 
 > [!TIP]

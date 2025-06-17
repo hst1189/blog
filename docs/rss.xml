@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 12:05:55 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 12:11:04 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
 https://github.com/microsoft/PowerToys&#13;
 &#13;
 # 下载插件&#13;
@@ -128,11 +128,12 @@ john.doe+lable@googlemail.com
 
 
 # 📫 Outlook
-通过为outlook设备别名的方式，一次获得10个outlook邮箱，outlook邮箱与真实的完全一样。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/23.html</guid><pubDate>Wed, 18 Dec 2024 15:04:02 +0000</pubDate></item><item><title>Vol.22 「白嫖」aws免费一年</title><link>https://blog.grapehut.xyz/post/22.html</link><description># 注册
-🔖1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
+通过为outlook设备别名的方式，一次获得10个outlook邮箱，outlook邮箱与真实的完全一样。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/23.html</guid><pubDate>Wed, 18 Dec 2024 15:04:02 +0000</pubDate></item><item><title>Vol.22 「白嫖」aws免费一年</title><link>https://blog.grapehut.xyz/post/22.html</link><description># 配置服务器
+
+🔖### 1. 注册aws账号（需要信用卡，验证时会扣除1美元或等值的货币）
 https://aws.amazon.com/cn/campaigns/nc20241101/
 
-🔖2. 选择免费额度的配置来创建一个EC2实例
+🔖### 2. 选择免费额度的配置来创建一个EC2实例
     名称：任意
     系统：任意（选择平时常用系统  **Ubuntu**）
     硬件配置（选择默认的免费）
@@ -142,13 +143,13 @@ https://aws.amazon.com/cn/campaigns/nc20241101/
 　创建密钥（保存为`xxx.pem`，下载到本地， ssh联接用）
     创建安全组（允许`SSH ✓`，`HTTP ✓`，`HTTPS  ✓`） 
 
-🔖3. 确认一下实体配置信息，启动实体
+🔖### 3. 确认一下实体配置信息，启动实体
 
-🔖4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu
+🔖### 4. 进入实体，查看公有IP，进行ssh链接，使用下载到本地的密钥（`xxx.pem`） ，选择Ubuntu的话，默认用户名：`ubuntu
 　　例如：公有IPv4：18.181.184.67
 　　ssh -i 'aws_ubuntu.pem' ubuntu@ec2-18-181-184-67.ap-northeast-1.compute.amazonaws.com
 
-🔖5. `sudo -i`  进入root权限
+🔖### 5. `sudo -i`  进入root权限
 查看硬件配置
 ```
 CPU：lscpu
@@ -157,7 +158,7 @@ CPU：lscpu
 OS版本：cat /etc/issue
 ```
 
-🔖6. 安装Docker
+🔖### 6. 安装Docker
 ```
 curl -fsSL https://get.docker.com | sh    #安装Docker
 systemctl enable --now docker             #启动Docker服务
@@ -166,7 +167,7 @@ docker ps -a                            #查看docker中所有容器
 ```
 
 
-🔖7. 开放端口，设置安全组
+🔖### 7. 开放端口，设置安全组
 `Gmeek-html&lt;img src='../imgs/aws_security_rull.png'&gt;`
 
 &gt; [!TIP]
@@ -180,9 +181,9 @@ docker ps -a                            #查看docker中所有容器
 
 
 
-# 常见问题
+🔖### 8. 常见问题
 
-## 无法ping的解决方案
+《无法ping的解决方案》
 首先Ping只是向服务器发送ICMP的数据包，如果在服务器的防火墙没有允许ICMP协议的数据包的话，那么即使服务器正常运行，那也是ping不同的。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/22.html</guid><pubDate>Tue, 17 Dec 2024 15:42:07 +0000</pubDate></item><item><title>Vol.20 油猴（Tampermonkey)</title><link>https://blog.grapehut.xyz/post/20.html</link><description># 比較&#13;
 || Greasemonkey | Violentmonkey | Tampermonkey| Scriptcat&#13;
 -- |-- | -- | --|--&#13;

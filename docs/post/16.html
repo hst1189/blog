@@ -10,6 +10,13 @@
 Linux发行版Ubuntu24.04LTS　　※LTS的意思是'长期支持'
 https://ubuntu.com/
 
+查看硬件配置
+```
+CPU：lscpu
+内存：free -h
+磁盘容量：df -h
+OS版本：cat /etc/issue
+```
 
 🔖# 2. 绑定静态IP
 打开路由器设置--->局域网设置-->DHCP静态IP设置，分配一个固定IP，比如192.168.0.100。">
@@ -18,6 +25,13 @@ https://ubuntu.com/
 Linux发行版Ubuntu24.04LTS　　※LTS的意思是'长期支持'
 https://ubuntu.com/
 
+查看硬件配置
+```
+CPU：lscpu
+内存：free -h
+磁盘容量：df -h
+OS版本：cat /etc/issue
+```
 
 🔖# 2. 绑定静态IP
 打开路由器设置--->局域网设置-->DHCP静态IP设置，分配一个固定IP，比如192.168.0.100。">
@@ -90,10 +104,16 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body spoiler" id="postBody"><p>🔖# 1. 安装Ubuntu系统<br>
 Linux发行版Ubuntu24.04LTS　　※LTS的意思是"长期支持"<br>
 <a href="https://ubuntu.com/" rel="nofollow">https://ubuntu.com/</a></p>
+<p>查看硬件配置</p>
+<pre class="notranslate"><code class="notranslate">CPU：lscpu
+内存：free -h
+磁盘容量：df -h
+OS版本：cat /etc/issue
+</code></pre>
 <p>🔖# 2. 绑定静态IP<br>
 打开路由器设置---&gt;局域网设置--&gt;DHCP静态IP设置，分配一个固定IP，比如192.168.0.100。配置完成后记得重启路由器。<br>
 这样即使重启服务器或者路由器，IP地址就不会变来变去了。</p>
-<p>🔖# 设置笔记本合盖不休眠<br>
+<p>🔖# 3. 设置笔记本合盖不休眠<br>
 配置文件</p>
 <pre class="notranslate"><code class="notranslate">/etc/systemd/logind.conf
 </code></pre>
@@ -124,14 +144,14 @@ hybrid-sleep(同时休眠到内存与硬盘),
 suspend-then-hibernate(先休眠到内存超时后再休眠到硬盘),
 lock(锁屏)
 </code></pre>
-<p>🔖# 3. 安装RustDesk远程操作<br>
-3-1. 通过github下载Ubuntu版本：<a href="https://github.com/rustdesk/rustdesk/releases">https://github.com/rustdesk/rustdesk/releases</a><br>
+<p>🔖# 4. 安装RustDesk远程操作<br>
+4-1. 通过github下载Ubuntu版本：<a href="https://github.com/rustdesk/rustdesk/releases">https://github.com/rustdesk/rustdesk/releases</a><br>
 <a href="https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86_64.deb">https://github.com/rustdesk/rustdesk/releases/download/1.3.5/rustdesk-1.3.5-x86_64.deb</a>       ※目前最新版本1.3.5</p>
-<p>3-2. 将安装包<code class="notranslate">.deb</code> 放在桌面，右键打开命令行、执行以下两个命令</p>
+<p>4-2. 将安装包<code class="notranslate">.deb</code> 放在桌面，右键打开命令行、执行以下两个命令</p>
 <pre class="notranslate"><code class="notranslate">sudo apt update
 sudo apt install ./rustdesk-1.3.5-x86_64.deb
 </code></pre>
-<p>3-3. 安装好rustdesk，我们需要进行一些设置，Ubuntu默认的显示器程序是<code class="notranslate">wayland</code><br>
+<p>4-3. 安装好rustdesk，我们需要进行一些设置，Ubuntu默认的显示器程序是<code class="notranslate">wayland</code><br>
 在息屏状态下远程软件无法唤醒屏幕、为了能唤醒屏幕需要改成<code class="notranslate">xorg</code></p>
 <pre class="notranslate"><code class="notranslate">sudo vi /etc/gdm3/custom.conf
 </code></pre>
@@ -140,36 +160,36 @@ sudo apt install ./rustdesk-1.3.5-x86_64.deb
 ⬇
 WaylandEnable=false
 </code></pre>
-<p>3-4. 然后重启桌面</p>
+<p>4-4. 然后重启桌面</p>
 <pre class="notranslate"><code class="notranslate">sudo systemctl restart gdm3
 </code></pre>
-<p>3-5. 设置Rustdesk<br>
+<p>4-5. 设置Rustdesk<br>
 打开Rustdesk 设置两个地方<br>
 设置-&gt;安全-&gt;允许IP直接访问 <strong>默认端口 21118</strong>，这样在家里就可以不使用中继服务器，而是IP直连，提高速度<br>
 设置-&gt;安全-&gt;密码 使用固定密码，这样主控方就可以使用固定密码控制</p>
-<p>🔖# 4. OpenSSH<br>
+<p>🔖# 5. OpenSSH<br>
 添加ssh的远程访问功能、这样就可以通过ssh的方式链接。</p>
 <pre class="notranslate"><code class="notranslate">sudo apt install openssh-server
 </code></pre>
 <p>【链接方式】输入ssh命令、然后输入密码</p>
 <pre class="notranslate"><code class="notranslate">ssh 用户名@192.168.0.100    #路由设置里所绑定的静态IP
 </code></pre>
-<p>🔖# 5. SMB文件共享<br>
+<p>🔖# 6. SMB文件共享<br>
 可以在Ubuntu服务器上开启SMB文件共享，构建文件共享服务，<br>
 这样可以很方便的在手机电脑上查看服务器上文件（包括电影，电视剧等）</p>
-<p>5-1. 安装</p>
+<p>6-1. 安装</p>
 <pre class="notranslate"><code class="notranslate">sudo apt install samba
 </code></pre>
-<p>5-2 创建共享文件夹</p>
+<p>6-2 创建共享文件夹</p>
 <pre class="notranslate"><code class="notranslate">mkdir /home/用户名/share
 chmod 755 /home/用户名/share
 </code></pre>
-<p>5-3 samba添加用户<br>
+<p>6-3 samba添加用户<br>
 可以添加SMB专用户，也可以系统默用户，以下系统默用户为例</p>
 <pre class="notranslate"><code class="notranslate">sudo pdbedit -a -u ubuntu   #用户名=ubuntu
 sudo pdbedit -L             #确认用户
 </code></pre>
-<p>5-4 修改配置文件、最下面粘贴这些内容</p>
+<p>6-4 修改配置文件、最下面粘贴这些内容</p>
 <pre class="notranslate"><code class="notranslate">sudo vi /etc/samba/smb.conf
 </code></pre>
 <pre class="notranslate"><code class="notranslate">[share]  #对外显示的共享名
@@ -184,14 +204,14 @@ force user = 用户名 #更改用户名
 force group =用户名 #更改用户名
 </code></pre>
 <p>点击<code class="notranslate">ESC</code>，然后输入 <code class="notranslate">:wq!</code> 保存文件</p>
-<p>5-5.  重启smb服务</p>
+<p>6-5.  重启smb服务</p>
 <pre class="notranslate"><code class="notranslate">sudo service smbd restart
 </code></pre>
-<p>5-6 Window链接方式：<br>
+<p>6-6 Window链接方式：<br>
 地址栏输入IP，然后输入服务器的用户名和密码</p>
 <pre class="notranslate"><code class="notranslate">\\192.168.0.100\share    #路由设置里所绑定的静态IP
 </code></pre>
-<p>🔖# 6. 安装Docker<br>
+<p>🔖# 7. 安装Docker<br>
 安装docker本体，需要执行以下命令。</p>
 <pre class="notranslate"><code class="notranslate">sudo curl -fsSL https://get.docker.com | sh    #安装Docker
 sudo systemctl enable --now docker        #启动Docker服务

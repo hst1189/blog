@@ -55,16 +55,10 @@ sfc /scannow
 wsreset -i
 ```
 
-
-
-## 切换成Win10的右键菜单
+## 右键菜单
 ```
-reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
-````
-
-## 切换成Win11的右键菜单（不推荐）
-```
-reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f 
+传统菜单(Win10)　reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+折叠菜单(Win11)　reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f 
 ```
 
 ## 永久暂停Windows自动更新
@@ -91,7 +85,7 @@ pause
 
 ## Window附加功能
 ```
-機能の確認      dism /online /Get-Features
+機能の確認     dism /online /Get-Features
 機能の有効化  dism /online /Enable-Feature:役割名
 機能の無効化  dism /online /Disable-Feature:役割名
 ```

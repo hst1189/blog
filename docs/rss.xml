@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 11:43:42 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 11:44:40 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
 https://github.com/microsoft/PowerToys&#13;
 &#13;
 # 下载插件&#13;
 1. [ChatGPTPowerToys](https://github.com/ferraridavide/ChatGPTPowerToys)&#13;
 将下载的插件解压后，放置到这个目录下：`C:\Program Files\PowerToys\RunPlugins`&#13;
-重启PowerToys。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/13.html</guid><pubDate>Tue, 14 Jan 2025 03:54:48 +0000</pubDate></item><item><title>Vol.32 白嫖Cloudflare无限多企业邮箱</title><link>https://blog.grapehut.xyz/post/24.html</link><description># 白嫖Cloudflare无限多企业邮箱
+重启PowerToys。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/13.html</guid><pubDate>Tue, 14 Jan 2025 03:54:48 +0000</pubDate></item><item><title>Vol.24 「白嫖」cloudflare无限企业邮箱</title><link>https://blog.grapehut.xyz/post/24.html</link><description># 白嫖cloudflare无限企业邮箱
 
 ## 收邮件
 1. 进入cloudflare，选择一个已绑定的域名

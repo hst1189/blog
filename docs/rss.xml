@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 12:49:45 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 12:51:07 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
 https://github.com/microsoft/PowerToys&#13;
 &#13;
 # 下载插件&#13;
@@ -45,7 +45,77 @@ curl -X POST 'https://api.resend.com/emails' \
 }'
 ```。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/24.html</guid><pubDate>Mon, 13 Jan 2025 14:12:12 +0000</pubDate></item><item><title>Vol.14 Scoop（Windows软件管理）</title><link>https://blog.grapehut.xyz/post/14.html</link><description># 🔖 Windows でのパッケージ管理は Scoop
 
-什么是 Scoop？它是一个在 Windows 上运行的软件包管理器。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/14.html</guid><pubDate>Sat, 11 Jan 2025 13:13:52 +0000</pubDate></item><item><title>Vol.15 Win安全开启SMB共享</title><link>https://blog.grapehut.xyz/post/15.html</link><description># 🔖 禁用 SMB1
+什么是 Scoop？它是一个在 Windows 上运行的软件包管理器。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/14.html</guid><pubDate>Sat, 11 Jan 2025 13:13:52 +0000</pubDate></item><item><title>Vol.29 免费大模型 API</title><link>https://blog.grapehut.xyz/post/25.html</link><description># 💯  大模型竞技场
+https://lmarena.ai/leaderboard
+
+# 💯  代理地址
+https://api-proxy.me/
+
+# 🔖 Gemini API  （国内无法直接访问，需代理）
+限制：https://ai.google.dev/gemini-api/docs/rate-limits#free-tier
+10次/分，500次/天，250,000token/分
+
+获取KEY：https://aistudio.google.com/apikey
+API地址： https://generativelanguage.googleapis.com/v1beta/models/
+模型：Gemini 2.5 Flash Preview 05-20
+
+### 多Key轮询方法：
+https://github.com/snailyp/gemini-balance
+[从零部署 Gemini Balance 手册 clawcloud部署sqlite版本](https://gb-docs.snaily.top/guide/setup-clawcloud-sqlite.html)
+部署结果：https://wuaacyawcegc.ap-northeast-1.clawcloudrun.com/
+
+### 自建代理方法：
+通过下面自建代理，同时能转成常用的 OpenAI格式接口
+[openai-gemini](https://github.com/PublicAffairs/openai-gemini)通过Github Actions功能，在Cloudflare创建Worker
+
+```
+1. 选择VPS
+例：Deploy to Cloudflare
+・获取 Account ID
+・获取 API Token  选择所有账户，所有区域
+
+2. Fork repository　运行github workflower， 自動部署 Cloudflare Worker（Worker默认名字为 gemini ） 
+
+3. Worker绑定域名（例如：gemini.grapehut.us.kg） 　※然后就可以调用此域名了
+```
+
+
+
+
+# 🔖 OpenAI API
+### 0. https://api.openai.com（国内无法直接访问，需要自建代理）
+代理API地址：https://api-proxy.me/openai
+模型：gpt-4o-mini
+
+
+以下2个，大佬自建的代理服务
+### 1. https://github.com/chatanywhere/GPT_API_free （一天200次）
+```
+gpt-4o-mini，和gpt-3.5-turbo共享一天200次
+国内动态加速 直连无需代理
+支持 gpt-3.5-turbo系列 / gpt-4系列 / gpt-4o系列 / gpt-4o-audio-preview / embeddings / DALL·E / whisper 等
+```
+模型：gpt-4o-mini
+获取KEY：[申请内测免费Key](https://api.chatanywhere.org/v1/oauth/free/render)
+API地址： https://api.chatanywhere.tech (国内中转，延时更低)
+　　　　　https://api.chatanywhere.org (国外使用)
+
+
+### 2. https://github.com/popjane/free_chatgpt_api （不限量 无门槛）
+```
+完全免费使用以下勾选模型：
+★ ✓gpt-4o-mini（不限量 无门槛）
+ 　✓gpt-3.5-turbo-0125
+ 　✓gpt-3.5-turbo-1106
+ 　✓gpt-3.5-turbo
+ 　✓gpt-3.5-turbo-16k
+ 　✓net-gpt-3.5-turbo (可联网搜索模型-稳定性稍差)
+ 　✓whisper-1
+ 　✓dall-e-2
+ 　×text-开头系列模型，例如：text-davinci（免费版已取消text系列模型）
+ 　×gpt-4全系列（只定期限量开放）
+ 　×付费版API支持OpenAI所有模型，包括（联网、绘画、聊天、向量、图片分析、文件分析、GPTs等）
+ 　×付费版API支持Midjourney专业绘画、Suno音乐生成、PPT生成、多种视频模型。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/25.html</guid><pubDate>Sun, 05 Jan 2025 13:33:04 +0000</pubDate></item><item><title>Vol.15 Win安全开启SMB共享</title><link>https://blog.grapehut.xyz/post/15.html</link><description># 🔖 禁用 SMB1
 强烈建议关闭，打开Windows機能面板
 ```
 cmd ⇒ OptionalFeatures.exe

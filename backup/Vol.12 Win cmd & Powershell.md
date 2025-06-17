@@ -2,41 +2,35 @@
 
 ## 各种面板
 http://wingsan.web.fc2.com/WinCom/index.html
-```
-winver　　windows版本
-lusrmgr.msc　　用户和组
-netplwiz　　用户账号管理
-compmgmt.msc　　电脑管理
-devmgmt.msc　　硬件管理
-diskmgmt.msc　　磁盘管理
-dxdiag　　DirectX診断
-regedit　　注册表
-firewall.cpl　　防火墙
-control　　控制面板
-services.msc　　服务进程
-taskmgr　　任务管理
-appwiz.cpl　　软件一览
-ComputerDefaults　　window默认程序
-OptionalFeatures　　window附加功能★
-sysdm.cpl　　环境变量★
-fsmgmt.msc　　共享文件夹
-mstsc　　远程桌面
-fonts　　字体
-```
 
-## 查看内网IP
-```
-ipconfig
-```
+命令|说明
+---|---
+winver|windows版本
+lusrmgr.msc|用户和组
+netplwiz|用户账号管理
+compmgmt.msc|电脑管理
+devmgmt.msc　|硬件管理
+diskmgmt.msc　|磁盘管理
+dxdiag　|DirectX診断
+regedit　|注册表
+firewall.cpl |防火墙
+control　|控制面板
+services.msc |服务进程
+taskmgr　|任务管理
+appwiz.cpl　|软件一览
+ComputerDefaults　|window默认程序
+OptionalFeatures　|window附加功能★
+sysdm.cpl　|环境变量★
+fsmgmt.msc |共享文件夹
+mstsc　|远程桌面
+fonts　|字体
 
-## 查看公网IP
-```
-curl ipinfo.io
-```
 
-## 网络诊断
+## 查看IP
 ```
-tracert www.google.com
+内网　ipconfig
+公网　curl ipinfo.io
+网络诊断　tracert www.google.com
 ```
 
 ## WIFI密码

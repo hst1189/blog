@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 12:11:04 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 12:49:45 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
 https://github.com/microsoft/PowerToys&#13;
 &#13;
 # 下载插件&#13;
@@ -9,13 +9,13 @@ https://github.com/microsoft/PowerToys&#13;
 
 ## 收邮件
 1. 进入cloudflare，选择一个已绑定的域名
-2. 启用email路由，自动生成4条DNS记录（3个MX，1个TXT），选择添加（添加结果可以在DNS面板里看到）
-3. 设置email路由规则，编辑Catch-All绑定一个転送邮箱，通过邮箱验证后，転送状态变为可用
+2. 启用email routing，自动生成５条DNS记录（３个MX，２个TXT），添加结果可以在DNS面板里看到
+3. 设置email routing规则，编辑Catch-All绑定一个転送邮箱，通过邮箱验证后，転送状态变为可用
 
 &gt; [!TIP]
 &gt; 邮箱「任意字符@ 上述绑定的域名」， 所接受到的邮件 都会転送到Catch-All绑定的邮箱
-&gt; 例如绑定域名 grapehut.us.kg， 邮件 to:  asdaeres@grapehut.us.kg    都会転送到Catch-All绑定的邮箱
-
+&gt; 例如：绑定域名 grapehut.us.kg， 发送至：asdaeres@grapehut.us.kg  的邮件，会転送到Catch-All 绑定邮箱
+　　　　　　　　　　　　　　　　发送至：csq3eq23@grapehut.us.kg 的邮件，同样也会転送到Catch-All 绑定邮箱
 &gt; [!TIP]
 &gt; cloudflare邮件设置的概要栏里，可以查看所有転送的邮件
 

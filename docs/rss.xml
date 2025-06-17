@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 09:04:28 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 09:07:10 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
 https://github.com/microsoft/PowerToys&#13;
 &#13;
 # 下载插件&#13;
@@ -53,7 +53,50 @@ https://ubuntu.com/
 
 
 🔖# 2. 绑定静态IP
-打开路由器设置---&gt;局域网设置--&gt;DHCP静态IP设置，分配一个固定IP，比如192.168.0.100。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/16.html</guid><pubDate>Thu, 19 Dec 2024 06:42:55 +0000</pubDate></item><item><title>Vol.18 jsdelivr CDN</title><link>https://blog.grapehut.xyz/post/18.html</link><description># 关于jsdelivr &#13;
+打开路由器设置---&gt;局域网设置--&gt;DHCP静态IP设置，分配一个固定IP，比如192.168.0.100。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/16.html</guid><pubDate>Thu, 19 Dec 2024 06:42:55 +0000</pubDate></item><item><title>Vol.23 油猴（Tampermonkey)</title><link>https://blog.grapehut.xyz/post/20.html</link><description># 比較&#13;
+|| Greasemonkey | Violentmonkey | Tampermonkey| Scriptcat&#13;
+-- |-- | -- | --|--&#13;
+Firefox | 〇 | 〇 | 〇|〇&#13;
+Chrome | × | 〇 | 〇|〇&#13;
+Safari | × | × | 〇|〇&#13;
+外部エディタ | × | 〇 | 〇|〇&#13;
+インポート/エクスポート | 〇 | 〇 | 〇|〇&#13;
+Dropbox 同期 | × | 〇 | 〇|×&#13;
+Google Drive 同期 | × | 〇 | 〇|×&#13;
+One Drive 同期 | × | 〇 | 〇|×&#13;
+WebDAV 同期 | × | 〇 | 〇|×&#13;
+Yandex Disk 同期 | × | × | 〇|×&#13;
+ライセンス | MIT | MIT | proprietary |GPL-3.0 license&#13;
+リポジトリ | [GitHub](https://github.com/greasemonkey/greasemonkey/) | [GitHub](https://github.com/violentmonkey/violentmonkey) | [2018 年更新停止](https://github.com/Tampermonkey/tampermonkey)|[GitHub](https://github.com/scriptscat/scriptcat)&#13;
+公式サイト | [公式サイト](https://www.greasespot.net/) | [公式サイト](https://violentmonkey.github.io/) | [公式サイト](https://www.tampermonkey.net/)| [公式サイト](https://docs.scriptcat.org)&#13;
+Initial release | 2005/03/28 | 2013/09/03 | 2010/05/26|&#13;
+&#13;
+# 脚本&#13;
+  - https://greasyfork.org/scripts&#13;
+  - https://sleazyfork.org/scripts&#13;
+  - https://scriptcat.org/en/search&#13;
+&#13;
+---&#13;
+  - https://greasyfork.org/ja/scripts/459541&#13;
+  - https://greasyfork.org/ja/scripts/467776&#13;
+  - https://greasyfork.org/ja/scripts/424913&#13;
+  - https://greasyfork.org/ja/scripts/449581&#13;
+  - https://greasyfork.org/ja/scripts/446342&#13;
+  - https://greasyfork.org/ja/scripts/471333&#13;
+  - https://greasyfork.org/ja/scripts/484953&#13;
+  - https://greasyfork.org/ja/scripts/438684&#13;
+ &#13;
+  - https://sleazyfork.org/zh-CN/scripts/432150&#13;
+  - https://sleazyfork.org/zh-CN/scripts/463305&#13;
+  - https://sleazyfork.org/zh-CN/scripts/509466&#13;
+  - https://sleazyfork.org/zh-CN/scripts/441120&#13;
+  - https://sleazyfork.org/zh-CN/scripts/499213&#13;
+  - https://sleazyfork.org/zh-CN/scripts/374903&#13;
+  - https://sleazyfork.org/zh-CN/scripts/428639&#13;
+  ---&#13;
+&#13;
+&#13;
+。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/20.html</guid><pubDate>Sat, 07 Dec 2024 12:03:52 +0000</pubDate></item><item><title>Vol.18 jsdelivr CDN</title><link>https://blog.grapehut.xyz/post/18.html</link><description># 关于jsdelivr &#13;
 &gt; https://www.jsdelivr.com/&#13;
 &#13;
 ## jsdelivr CDN 和 GitHub 的关系&#13;

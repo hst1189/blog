@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 07:43:46 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.11 Windows KMS激活</title><link>https://blog.grapehut.xyz/post/11.html</link><description>```&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Tue, 17 Jun 2025 07:45:55 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.11 Windows KMS激活</title><link>https://blog.grapehut.xyz/post/11.html</link><description>```&#13;
 # Windows 11 LTSC 2024&#13;
 tiny11_24H2&#13;
 　https://archive.org/details/tiny11-2409 &#13;
@@ -300,7 +300,7 @@ Word 2016|WXY84-JN2Q9-RBCCQ-3Q3J3-3PFJ6&#13;
 &#13;
 #### 1. 准备工作：&#13;
    - 一个容量不小于 8GB 的 U 盘（建议使用 USB 3.0 及以上版本，速度更快）。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/10.html</guid><pubDate>Sun, 29 Sep 2024 04:13:00 +0000</pubDate></item><item><title>Vol.9 WSL（Windows Subsystem for Linux）</title><link>https://blog.grapehut.xyz/post/9.html</link><description># 关于 WSL（Windows Subsystem for Linux）
-Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/9.html</guid><pubDate>Tue, 24 Sep 2024 14:36:27 +0000</pubDate></item><item><title>Vol.12 Win cmd &amp; Powershell 命令</title><link>https://blog.grapehut.xyz/post/12.html</link><description># cmd命令
+Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。</description><guid isPermaLink="true">https://blog.grapehut.xyz/post/9.html</guid><pubDate>Tue, 24 Sep 2024 14:36:27 +0000</pubDate></item><item><title>Vol.12 Win cmd &amp; Powershell</title><link>https://blog.grapehut.xyz/post/12.html</link><description># cmd命令
 
 ```
 shell:start menu    用户的开始菜单

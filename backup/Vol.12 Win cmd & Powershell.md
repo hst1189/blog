@@ -1,91 +1,5 @@
 # cmd命令
 
-```
-shell:start menu    用户的开始菜单
-shell:common start menu　通用的
-
-shell:startup       启动文件夹,用户登录时会自动运行这个文件夹中的程序
-shell:common startup　通用的
-
-shell:programs   "开始"菜单中的程序文件夹
-shell:common programs　通用的
-
-shell:desktop     用户的桌面文件夹
-shell:common desktop　通用的
-
-shell:appdata      应用程序数据文件夹,存储应用程序的配置文件等
-shell:common appdata　通用的
-
-shell:appsfolder   应用程序文件夹
-shell:sendto       "发送到"菜单中的文件夹
-shell:recent         最近使用的文件列表
-shell:fonts           字体文件夹
-shell:RecycleBinFolder  回收站
-
-shell:UsersFilesFolder  用户根目录
-
-shell:favorites     收藏夹文件夹
-shell:Libraries       公用库 （图片照片文档视频等）
-shell:UsersLibrariesFolder  用户的库（图片照片文档视频等）
-shell:my music    用户的音乐文件夹
-shell:my pictures 用户的图片文件夹
-shell:my videos    用户的视频文件夹
-shell:templates    模板文件夹
-
-
-shell:ProgramFiles  用户的Program Files
-shell:ProgramFilesCommon   通用的Program Files
-
-shell:ProgramFilesX86   用户的Program Files(x86)
-shell:ProgramFilesCommonX86   通用的Program Files(x86)
-
-```
-
-
-## Window附加功能
-```
-機能の確認      dism /online /Get-Features
-機能の有効化  dism /online /Enable-Feature:役割名
-機能の無効化  dism /online /Disable-Feature:役割名
-```
-
-```
-＜Hyper-V＞ 
-dism /online /enable-feature /featurename:Microsoft-Hyper-V/all /norestart
-dism /online /enable-feature /featurename:Microsoft-Hyper-V-All/all /norestart
-dism /online /enable-feature /featurename:Microsoft-Hyper-V-Hypervisor/all /norestart
-dism /online /enable-feature /featurename:Microsoft-Hyper-V-Services/all /norestart
-dism /online /enable-feature /featurename:Microsoft-Hyper-V-Tools-All/all /norestart
-dism /online /enable-feature /featurename:Microsoft-Hyper-V-Management-Clients/all /norestart
-dism /online /enable-feature /featurename:Microsoft-Hyper-V-Management-PowerShell/all /norestart
-
-＜WSL＞
-dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-
-＜虚拟机Platform＞
-dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
-
-表示名 | 機能名
--- | --
-.NET Framework 3.5 (.NET 2.0 および 3.0 を含む) | NetFx3
-.NET Framework 4.8 Advanced Services | NetFx4-AdvSrvs
--- | --
-Hyper-V | Microsoft-Hyper-V
-Hyper-V プラットフォーム | Microsoft-Hyper-V-All
-Hyper-V Hypervisor | Microsoft-Hyper-V-Hypervisor
-Hyper-V サービス | Microsoft-Hyper-V-Services
-Hyper-V 管理ツール | Microsoft-Hyper-V-Tools-All
-Hyper-V GUI 管理ツール | Microsoft-Hyper-V-Management-Clients
-Windows PowerShell 用 Hyper-V モジュール | Microsoft-Hyper-V-Management-PowerShell
--- | --
-Linux 用 Windows サブシステム | Microsoft-Windows-Subsystem-Linux
--- | --
-仮想マシン プラットフォーム | VirtualMachinePlatform
-
-
-
-
 ## 各种面板
 http://wingsan.web.fc2.com/WinCom/index.html
 ```
@@ -178,6 +92,53 @@ pause
 将文本文档改名为"xxx.bat"，需注意.bat是扩展名
 运行完成后，重启电脑
 ```
+
+
+
+## Window附加功能
+```
+機能の確認      dism /online /Get-Features
+機能の有効化  dism /online /Enable-Feature:役割名
+機能の無効化  dism /online /Disable-Feature:役割名
+```
+
+```
+＜Hyper-V＞ 
+dism /online /enable-feature /featurename:Microsoft-Hyper-V/all /norestart
+dism /online /enable-feature /featurename:Microsoft-Hyper-V-All/all /norestart
+dism /online /enable-feature /featurename:Microsoft-Hyper-V-Hypervisor/all /norestart
+dism /online /enable-feature /featurename:Microsoft-Hyper-V-Services/all /norestart
+dism /online /enable-feature /featurename:Microsoft-Hyper-V-Tools-All/all /norestart
+dism /online /enable-feature /featurename:Microsoft-Hyper-V-Management-Clients/all /norestart
+dism /online /enable-feature /featurename:Microsoft-Hyper-V-Management-PowerShell/all /norestart
+
+＜WSL＞
+dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+＜虚拟机Platform＞
+dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+表示名 | 機能名
+-- | --
+.NET Framework 3.5 (.NET 2.0 および 3.0 を含む) | NetFx3
+.NET Framework 4.8 Advanced Services | NetFx4-AdvSrvs
+-- | --
+Hyper-V | Microsoft-Hyper-V
+Hyper-V プラットフォーム | Microsoft-Hyper-V-All
+Hyper-V Hypervisor | Microsoft-Hyper-V-Hypervisor
+Hyper-V サービス | Microsoft-Hyper-V-Services
+Hyper-V 管理ツール | Microsoft-Hyper-V-Tools-All
+Hyper-V GUI 管理ツール | Microsoft-Hyper-V-Management-Clients
+Windows PowerShell 用 Hyper-V モジュール | Microsoft-Hyper-V-Management-PowerShell
+-- | --
+Linux 用 Windows サブシステム | Microsoft-Windows-Subsystem-Linux
+-- | --
+仮想マシン プラットフォーム | VirtualMachinePlatform
+
+
+
+
 
 
 

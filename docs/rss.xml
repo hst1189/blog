@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Wed, 18 Jun 2025 06:08:16 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小饅頭の部落格</title><link>https://blog.grapehut.xyz</link><description>Stay hungry. Stay foolish. --Steve Jobs</description><copyright>小饅頭の部落格</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>../avatar.png</url><title>avatar</title><link>https://blog.grapehut.xyz</link></image><lastBuildDate>Wed, 18 Jun 2025 06:14:30 +0000</lastBuildDate><managingEditor>小饅頭の部落格</managingEditor><ttl>60</ttl><webMaster>小饅頭の部落格</webMaster><item><title>Vol.13 PowerToys使用技巧</title><link>https://blog.grapehut.xyz/post/13.html</link><description># 下载PowerToys&#13;
 https://github.com/microsoft/PowerToys&#13;
 &#13;
 # 下载插件&#13;
@@ -407,15 +407,13 @@ missav永远播放+不弹广告
 - https://sleazyfork.org/ja/scripts/499213
 
 missav批量备份收藏视频
-- https://greasyfork.org/ja/scripts/497682
+- https://sleazyfork.org/ja/scripts/497682
 
 OneJAVOneWeb（javbusjavlibrary.com| onejav.com| 141jav.com| jav321.com| javbus.com| hpjav.tv| jable.tv| hpav.tv| javdb.com| freejavbt.com| avmoo.click）
 - https://sleazyfork.org/ja/scripts/428639
 
 亚洲审美车（theav101.com| theav108.com| theav109.com| theav.fun| theav120.com| theav09.fun| theav121.com）
 - https://sleazyfork.org/ja/scripts/455251
-
-
 
 解锁海角社区资源
 - https://sleazyfork.org/zh-CN/scripts/509466

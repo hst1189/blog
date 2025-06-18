@@ -64,15 +64,13 @@ missav永远播放+不弹广告
 - https://sleazyfork.org/ja/scripts/499213
 
 missav批量备份收藏视频
-- https://greasyfork.org/ja/scripts/497682
+- https://sleazyfork.org/ja/scripts/497682
 
 OneJAVOneWeb（javbusjavlibrary.com| onejav.com| 141jav.com| jav321.com| javbus.com| hpjav.tv| jable.tv| hpav.tv| javdb.com| freejavbt.com| avmoo.click）
 - https://sleazyfork.org/ja/scripts/428639
 
 亚洲审美车（theav101.com| theav108.com| theav109.com| theav.fun| theav120.com| theav09.fun| theav121.com）
 - https://sleazyfork.org/ja/scripts/455251
-
-
 
 解锁海角社区资源
 - https://sleazyfork.org/zh-CN/scripts/509466
